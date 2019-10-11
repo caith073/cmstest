@@ -16,24 +16,31 @@ h2 {
 }
 
 ul {
-    width: 100px;
     margin: 0;
     padding: 0;
 }
 
+.btn {
+    background-color: #d0d5d9;
+    color: #000;
+    text-decoration: none;
+}
+
+
 li {
     list-style: none;
-    text-align: center;
     margin: 2px;
     padding: 2px;
 }
 
-/*----------features container------------------*/
+/*----------features/information container------------------*/
 
 .features-container {
     margin: 2em;
+    text-align: center;
 }
 
 .information-container {
     margin: 2em;
+    text-align: center;
 }
