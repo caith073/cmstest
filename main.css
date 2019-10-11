@@ -4,19 +4,15 @@ body, html {
     padding: 0;
 }
 
-nav {
+.navbar {
     background-color: #5176a6;
     color: #fff;
-    width: 100%;
 }
 
-.navbar {
-    display: inline-block;
-}
-
-h1 {
+h2 {
     margin: 2px;
     padding: 2px;
+    width: 2px;
 }
 
 ul {
@@ -27,7 +23,17 @@ ul {
 
 li {
     list-style: none;
-    text-align: right;
+    text-align: center;
     margin: 2px;
     padding: 2px;
+}
+
+/*----------features container------------------*/
+
+.features-container {
+    margin: 2em;
+}
+
+.information-container {
+    margin: 2em;
 }
