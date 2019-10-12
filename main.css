@@ -5,14 +5,17 @@ body, html {
 }
 
 .navbar {
+    display: flex;
     background-color: #5176a6;
     color: #fff;
 }
 
 h2 {
+    text-decoration: none;
     margin: 2px;
     padding: 2px;
     width: 2px;
+
 }
 
 ul {
