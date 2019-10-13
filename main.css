@@ -74,11 +74,36 @@ li {
     grid: 150px / auto auto auto;
     grid-gap: 15px;
 }
+
+.text {
+    background-color: #5176a6;
+    opacity: 0.95;
+}
+.text2 {
+    background-color: #5176a6;
+    opacity: 0.95;
+}
+.text3 {
+    background-color: #5176a6;
+    opacity: 0.95;
+}
 /*----------features/information container------------------*/
 
 .container-fluid {
     height: 100vh;
     background: url("calloutimg.jpg") no-repeat bottom right fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container-fluid2 {
+    height: 100vh;
+    background: url("") no-repeat bottom right fixed;
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
