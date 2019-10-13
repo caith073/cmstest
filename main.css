@@ -44,6 +44,8 @@ ul {
 
 }
 
+/*-----------overlay-----------------*/
+
 .opaque-overlay {
     position: absolute;
     top: 0px;
@@ -60,6 +62,9 @@ li {
 }
 
 /*--------------jumbotron-----------*/
+.jumbotron {
+    background-color: transparent;
+}
 .jumbotron-header {
    color: white;
     font-weight: bold;
