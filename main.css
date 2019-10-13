@@ -5,26 +5,20 @@ body, html {
     margin: 0;
     padding: 0;
 }
-
+/*------------navbar------------*/
 .navbar {
+    height: 120px;
     margin: 0;
     padding: 0;
     border: 0;
     background-color: #fff;
     color: #fff;
 }
+img {
+    height: 120px;
+}
 
 h3 {
-    text-decoration: none;
-    margin: 2px;
-    padding: 2px;
-}
-h4 {
-    text-decoration: none;
-    margin: 2px;
-    padding: 2px;
-}
-p {
     text-decoration: none;
     margin: 2px;
     padding: 2px;
@@ -36,6 +30,8 @@ ul {
 }
 /*-------------buttons----------------*/
 .btn {
+    margin: 8px;
+    position: relative;
     background-color: #5176a6;
     color: #fff;
     text-decoration: none;
@@ -66,9 +62,17 @@ li {
     background-color: transparent;
 }
 .jumbotron-header {
-   color: white;
+    color: white;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin: 10px;
+}
+.row {
+    position: relative;
+}
+.grid-container {
+    display: grid;
+    grid: 150px / auto auto auto;
+    grid-gap: 15px;
 }
 /*----------features/information container------------------*/
 
@@ -85,7 +89,10 @@ li {
     position: relative;
 }
 
-.information-container {
-    margin: 2em;
-    text-align: center;
+.features-container {
+    background-color: transparent;
+}
+.features-container2 {
+    background-color: #fff;
+    color: #000;
 }
