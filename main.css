@@ -1,34 +1,57 @@
 body, html {
     font-family: "Roboto", sans-serif;
+    color: #fff;
+    background-color: #5176a6;
     margin: 0;
     padding: 0;
 }
 
 .navbar {
-    display: flex;
-    background-color: #5176a6;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #fff;
     color: #fff;
 }
 
-h2 {
+h3 {
     text-decoration: none;
     margin: 2px;
     padding: 2px;
-    width: 2px;
-
+}
+h4 {
+    text-decoration: none;
+    margin: 2px;
+    padding: 2px;
+}
+p {
+    text-decoration: none;
+    margin: 2px;
+    padding: 2px;
 }
 
 ul {
     margin: 0;
     padding: 0;
 }
-
+/*-------------buttons----------------*/
 .btn {
-    background-color: #d0d5d9;
-    color: #000;
+    background-color: #5176a6;
+    color: #fff;
     text-decoration: none;
 }
+.btn--btn-light {
 
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
 li {
     list-style: none;
@@ -36,11 +59,25 @@ li {
     padding: 2px;
 }
 
+/*--------------jumbotron-----------*/
+.jumbotron-header {
+   color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
 /*----------features/information container------------------*/
 
-.features-container {
-    margin: 2em;
-    text-align: center;
+.container-fluid {
+    height: 100vh;
+    background: url("calloutimg.jpg") no-repeat bottom right fixed;
+     -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 .information-container {
