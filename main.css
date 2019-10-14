@@ -67,6 +67,7 @@ li {
     margin: 10px;
 }
 .row {
+    background-color: transparent;
     position: relative;
     margin: 10px;
     padding: 20px;
@@ -119,10 +120,6 @@ li {
 }
 
 .features-container {
-    background-color: transparent;
-}
-.features-container2 {
-    background-color: #fff;
     color: #000;
 }
 /*-----------------footer--------------*/
