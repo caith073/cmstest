@@ -6,6 +6,7 @@ body, html {
 }
 /*------------navbar------------*/
 .navbar {
+    position: relative;
     height: 120px;
     margin: 0;
     padding: 0;
