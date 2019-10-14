@@ -103,7 +103,7 @@ li {
 }
 .container-fluid2 {
     height: 100vh;
-    background: url("") no-repeat bottom right fixed;
+    background: url("calloutimg2.jpg") no-repeat bottom right fixed;
      -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -120,4 +120,18 @@ li {
 .features-container2 {
     background-color: #fff;
     color: #000;
+}
+/*-----------------footer--------------*/
+footer {
+    background-color: #5176a6;
+    height: 120px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
 }
